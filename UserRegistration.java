@@ -14,5 +14,8 @@ public class UserRegistration {
 		System.out.println("Enter Last Name :");
 		String lastName = scanner.next();
 		System.out.println(Pattern.matches("[A-Z][a-z]{3,}", lastName));
+		System.out.println("Enter Email ID :");
+		String emailid = scanner.next();
+		System.out.println(Pattern.matches("[a-z\\d]{5,}@[a-z]{5}.[a-z]{2,}.[a-z]{2,}", emailid));
 	}
 }
