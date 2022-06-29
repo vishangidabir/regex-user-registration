@@ -20,6 +20,5 @@ public class UserRegistration {
 		System.out.println("Enter Mobile Number :");
 		String mobileno = scanner.next();
 		System.out.println(Pattern.matches("[+]91 [6789]\\d{9}", mobileno));
-		
 	}
 }
