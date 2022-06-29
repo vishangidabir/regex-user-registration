@@ -4,6 +4,7 @@ import java.util.regex.Pattern;
 import java.util.Scanner;
 
 public class UserRegistration {
+	
 	public static void main(String args[]) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Welcome to UserRegistration program using Regex !");
