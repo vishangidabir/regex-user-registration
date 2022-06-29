@@ -11,5 +11,8 @@ public class UserRegistration {
 		System.out.println("Enter First Name :");
 		String firstName = scanner.next();
 		System.out.println(Pattern.matches("[A-Z][a-z]{3,}", firstName));
+		System.out.println("Enter Last Name :");
+		String lastName = scanner.next();
+		System.out.println(Pattern.matches("[A-Z][a-z]{3,}", lastName));
 	}
 }
