@@ -31,8 +31,7 @@ public class UserRegistration {
 		System.out.println(Pattern.matches("(?=.*[A-Z])(?=.*\\d)[A-Z a-z \\d]{8,}", password3));
 		System.out.println("Enter Password 4 :");
 		String password4 = scanner.next();
-		System.out.println(
-				Pattern.matches("(?=.*[A-Z])(?=.*\\d)(?=.*[!@#$%^&-+=()])[A-Z a-z \\d !@#$%^&-+=()]{8,}", password4));
+		System.out.println(Pattern.matches("(?=.*[A-Z])(?=.*\\d)(?=.*[!@#$%^&-+=()])[A-Z a-z \\d !@#$%^&-+=()]{8,}", password4));
 		System.out.println();
 
 		System.out.println("\nAll valid email samples validation is as follows : ");
